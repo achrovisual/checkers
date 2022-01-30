@@ -2,7 +2,7 @@ from copy import deepcopy
 from math import inf
 
 
-# This class represents a state. It
+# This class represents a state. 
 class State(object):
     # This is a constructor. It initializes object variables.
     def __init__(self, table, turn = True):
