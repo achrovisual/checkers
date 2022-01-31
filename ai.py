@@ -35,7 +35,7 @@ def sort_by_history_heuristic(moves):
             scores.append(0)
 
     # Sort the move list using the score list and return it.
-    return [x for _, x in sorted(zip(scores, moves))]
+    return [x for _, x in sorted(zip(scores, moves), reverse = True)]
 
 
 # This function is the implementation of Minimax with Alpha-Beta Pruning.
